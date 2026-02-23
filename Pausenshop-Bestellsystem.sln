@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pausenshop-Bestellsystem", "Pausenshop-Bestellsystem.csproj", "{B299E25A-4033-41E0-9BC2-E303F28772D7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pausenshop-Bestellsystem.Core", "Pausenshop-Bestellsystem.Core\Pausenshop-Bestellsystem.Core.csproj", "{37DA3A23-952C-4626-B6F2-FB9E5987993D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pausenshop-Bestellsystem.Logic", "Pausenshop-Bestellsystem.Logic\Pausenshop-Bestellsystem.Logic.csproj", "{BA6DE4C6-E255-44E3-A00C-18E78386C2B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B299E25A-4033-41E0-9BC2-E303F28772D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B299E25A-4033-41E0-9BC2-E303F28772D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B299E25A-4033-41E0-9BC2-E303F28772D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B299E25A-4033-41E0-9BC2-E303F28772D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37DA3A23-952C-4626-B6F2-FB9E5987993D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37DA3A23-952C-4626-B6F2-FB9E5987993D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37DA3A23-952C-4626-B6F2-FB9E5987993D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37DA3A23-952C-4626-B6F2-FB9E5987993D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA6DE4C6-E255-44E3-A00C-18E78386C2B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA6DE4C6-E255-44E3-A00C-18E78386C2B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA6DE4C6-E255-44E3-A00C-18E78386C2B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA6DE4C6-E255-44E3-A00C-18E78386C2B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
